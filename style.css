@@ -63,7 +63,7 @@ body {
 .ativo{
 background-color: var(--botao-ativo);
 bordder-bottim: 4px solid var(--verde);
-}]
+}
 
 @media screen {
     
