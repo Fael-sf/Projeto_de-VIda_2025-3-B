@@ -1,7 +1,7 @@
 const botoes = document.querySelectorAll(".botao");
 console.log(bptoes);
 
-for (
+for {
 
 for(let j = 0; j<botoes.length; j++){
 
@@ -14,4 +14,4 @@ botoes[j].classList.remove("ativo");
     botoes[i].classList.add("ativo");
 }
 
- )
+}
