@@ -68,7 +68,7 @@ bordder-bottim: 4px solid var(--verde);
 .abas-textos{
 
     background-color: var(--texto-fundo);
-    
+    padding: 40px;
 }
 
 @media screen {
