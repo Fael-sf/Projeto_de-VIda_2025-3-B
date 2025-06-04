@@ -95,7 +95,6 @@ text-transform: uppercase;
 
 }
 
-
 @media screen {
 
     .botoes {
@@ -107,5 +106,7 @@ text-transform: uppercase;
         border-radius: 0 40px 0 0;
     }
 
-
+.contador{
+    font-size: 20px;
+    text-align: center;
 }
