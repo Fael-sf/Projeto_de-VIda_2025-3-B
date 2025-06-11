@@ -36,8 +36,9 @@ body {
     color: var(--verde);
 }
 
+
 .botao {
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -62,52 +63,49 @@ body {
 
 .botao.ativo {
     background-color: var(--botao-ativo);
-     border-bottom: 4px solid var(--verde);
+    border-bottom: 4px solid var(--verde);
 }
 
 .abas-textos {
-
     background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
 
-
 .aba-conteudo.ativo {
-
     display: block;
 }
-.aba-conteudo{
 
+.aba-conteudo {
     display: none;
 }
-.aba-coneudo-titulo-principal{
 
-font-size: 28px;
-
-text-align: center;
+.aba-conteudo-titulo-principal {
+    font-size: 28px;
+    text-align: center;
 }
 
-.aba-conteudo-titulo-secundario{
-text-align: center;
-color: var(--verde);
-text-transform: uppercase;
-
+.aba-conteudo-titulo-secundario {
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
 }
 
-@media screen {
+.contador {
+    font-size: 20px;
+    text-align: center;
+}
 
+@media screen and (min-width: 768px) {
     .botoes {
         display: flex;
     }
 
-    .botao:last-child {
-
+    .botao:first-child {
         border-radius: 40px 0 0 0;
     }
 
-.contador{
-    font-size: 20px;
-    text-align: center;
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
     }
 }
